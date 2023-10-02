@@ -1,14 +1,17 @@
 # In-Vehicle-Coupon-Recommendation
 
-# 1.Project Definition 
-
-From retailers to manufacturers to small businesses, everyone uses discount coupons in their marketing strategies to not only increase sales but also improve customer retention. While it doesn't guarantee consumers will profit it somehow gives us a reassuring and satisfying sense of "business". Therefore, it becomes crucial for companies to utilize this marketing strategy to achieve their sales and profit goals. 
+# 1.	Problem Setting 
 
 
-# 2.Problem Setting 
+Discount oupons are a powerful marketing strategy used by small businesses and manufacturers. While it doesn't guarantee that consumers will profit, it gives a reassuring and satisfying sense of "business." This is because the customer will feel they are getting a good deal. Additionally, customers tend to buy products from companies that offer discounts. Discount coupons are a crucial marketing strategy for businesses to achieve their sales and profit goals. By offering discounts, companies or businesses can attract new customers, encourage existing customers to spend more or try new products, and reduce cart abandonment. 
 
-The dataset is dedicated to recommending in-vehicle mobility system coupons to users, and we predict whether customers will accept the vouchers. Based on the dataset, only 56.84 % of drivers receive the coupon. This might imply that the profit is not optimal since it doesn’t fulfill the company's target or the KPI of the campaign. 
-In order to solve the problem, we need to predict the acceptance rate of the coupon.
-Therefore, we decided to build a classification model that can accurately predict whether users will accept their coupons, while reducing marketing costs as much as possible. 
+A group of scientists collected the dataset used in this project from a survey on Amazon Mechanical Turk drivers. The dataset is dedicated to recommending in-vehicle mobility system coupons to users and is used to predict whether customers will accept the voucher. Estimating coupon acceptance will help the company effectively target its marketing strategies and reduce the number of wasted coupons.
 
-Data Source: The data provided to us is part of a research effort in which a group of scientists and professionals studied a new classification model based on the Bayesian ruleset and collected this dataset from a survey on Amazon Mechanical Turk for benchmarking this new model. Because the survey is conducted with real people, it can be assumed that the dataset is from the real world. 
+Based on the dataset, only 56.84 % of drivers receive the coupon. It might imply that the profit is not optimal since it doesn’t fulfill the company’s target or the KPI of the campaign. To improve the coupon acceptance rate, we are building a predictive model to accurately estimate whether the driver or customer will accept the coupon while reducing marketing costs as much as possible. The models are built by leveraging four machine learning algorithms: Logistic Regression, Decision Tree, Naïve Bayes, and Neural Network. The models will be trained using the survey data, and the final model will be evaluated based on its accuracy in predicting testing data.
+
+# 2.   Conclusion
+
+
+Discount coupons are a powerful promotion strategy that small businesses and manufacturers use to increase profitability. Based on the dataset, only 56.84% of drivers accept the coupon, and it does not satisfy the KPI of the promotion. Four different algorithms are used to predict whether the customer will accept or reject the voucher. 
+Based on the calculation, neural networks is accurately predicting coupon acceptance by 70%, which means using this model improves coupon acceptance by 13.16%. Furthermore, we also look at the economic factor and calculate the benefit-cost-ratio of this marketing strategy. Using this data, with the assumption that the benefit per coupon is $10 and the cost is $3, and if the company distributed 12,610 coupons, the total revenue from this marketing strategy is $88,270, and the cost of distributing the coupon is $26,481. The B/C ratio will be 3.33: 1. This means the company gets a profit of $3.33 for every $1 it spends on distributing coupons, which suggests that the marketing strategy is effective.
+
